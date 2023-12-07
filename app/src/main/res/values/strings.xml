@@ -1,0 +1,101 @@
+<resources>
+    <string name="app_name">My Car</string>
+
+    <string name="number_plate">Number Plate</string>
+    <string name="car_make">Car Make</string>
+    <string name="car_type">select your car type</string>
+    <string name="car_model">Car Model</string>
+    <string name="car_owner">Owner\'s Name</string>
+    <string name="car_tare">Car Tare (in tonnes)</string>
+    <string name="car_weight">Car Weight (in tonnes)</string>
+    <string name="date_purchased">Date Purchased</string>
+    <string name="date_fueled">Date Fueled</string>
+    <string name="fuel_type">Fuel Type</string>
+    <string name="fuel_quantity">Fuel Quantity (in Ltrs)</string>
+    <string name="fuel_capacity">Select fuel capacity (Ltrs)</string>
+    <string name="add_a_car">Add</string>
+    <string name="menu_hint">Enter item if not available in the menu</string>
+    <string name="blank_text"> </string>
+    <string name="submit_button">Submit</string>
+    <string name="petrol">Petrol</string>
+    <string name="diesel">Diesel</string>
+    <string name="price">Price per litre</string>
+    <string name="total">Total amount (KShs)</string>
+    <string name="fuel_button">GoTo Fuel</string>
+    <string name="default_quantity">1</string>
+
+    <string name="def_car_model">Rolls Royce Wraith</string>
+    <string name="def_car_no_plate">KBR 1122L</string>
+    <string name="def_car_make">Coupe</string>
+    <string name="def_car_owner">Brian Ruga</string>
+    <string name="def_car_date">30/10/2023</string>
+    <string name="def_car_tare">3.38</string>
+    <string name="def_car_weight">4.44</string>
+
+
+    <string-array name="car_make_array">
+        <item>Bus</item>
+        <item>Mini-bus</item>
+        <item>Hatchback</item>
+        <item>Convertible</item>
+        <item>Van</item>
+        <item>Sedan</item>
+        <item>Station Wagon</item>
+        <item>Truck</item>
+        <item>Mini-truck</item>
+        <item>Trailer-truck</item>
+        <item>Tow truck</item>
+        <item>Pickup</item>
+        <item>SUV</item>
+        <item>Mini-SUV</item>
+        <item>Sport Car</item>
+        <item>Muscle car</item>
+        <item>Super car</item>
+        <item>Bike</item>
+        <item>Coupe</item>
+        <item>RV</item>
+        <item>Limousine</item>
+    </string-array>
+
+    <string-array name="car_model_array">
+        <item>Toyota</item>
+        <item>Nissan</item>
+        <item>Tesla</item>
+        <item>Renault</item>
+        <item>Porsche</item>
+        <item>Suzuki</item>
+        <item>Mazda</item>
+        <item>Kia</item>
+        <item>Subaru</item>
+        <item>Fiat</item>
+        <item>Mitsubishi</item>
+        <item>Scania</item>
+        <item>Honda</item>
+        <item>Mercedes Benz</item>
+        <item>Audi</item>
+        <item>BMW</item>
+        <item>Cadillac</item>
+        <item>Chevrolet</item>
+        <item>Volkswagen</item>
+        <item>Bugatti</item>
+        <item>Mclaren</item>
+        <item>Ferrari</item>
+        <item>Lamborghini</item>
+        <item>Rolls-Royce</item>
+        <item>Hyundai</item>
+        <item>Ford</item>
+        <item>GM</item>
+    </string-array>
+
+    <string-array name="fuel_capacity">
+        <item>40</item>
+        <item>50</item>
+        <item>70</item>
+        <item>100</item>
+        <item>120</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+    </string-array>
+
+</resources>

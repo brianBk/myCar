@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1565C0</color>
+    <color name="colorPrimaryVariant">#0097A7</color>
+    <color name="colorSecondary">#E64A19</color>
+    <color name="colorSecondaryVariant">#FF5722</color>
+    <color name="colorAccent">#E91E63</color>
+
+    <color name="make">#4CAF50</color>
+    <color name="owner">#A60A3F</color>
+    <color name="date">#030304</color>
+    <color name="model">#08534C</color>
+    <color name="plates">#162836</color>
+    <color name="fuel">#FF5722</color>
+
+    <color name="color_on_selected">#E91E63</color>
+    <color name="color_on_unselected">#090809</color>
+
+    <color name="text_selected">#000000</color>
+    <color name="text_unselected">#532635</color>
+
+
+
+
+
+
+    <color name="detail">#FF9800</color>
+
+    <color name="colorAccent2">#F23575</color>
+    <color name="colorAccent3">#F81E68</color>
+
+    <color name="gray_blue">#D0EBEF</color>
+
+    <color name="list_bg">#A1DBF6</color>
+
+    <color name="page_bg">#E1F5FE</color>
+    <color name="page_bg2">#B3E5FC</color>
+    <color name="page_bg3">#81D4FA</color>
+
+</resources>

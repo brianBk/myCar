@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mycar_nav"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.ispace.mycar.fragments.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_homeFragment_to_carEntryFragment"
+            app:destination="@id/carEntryFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_fuelFragment"
+            app:destination="@id/fuelFragment" />
+        <action
+            android:id="@+id/action_homeFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carEntryFragment"
+        android:name="com.ispace.mycar.fragments.entry.CarEntryFragment"
+        android:label="CarEntry"
+        tools:layout="@layout/fragment_car_entry">
+        <action
+            android:id="@+id/action_carEntryFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <action
+            android:id="@+id/action_carEntryFragment_to_fuelFragment"
+            app:destination="@id/fuelFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/fuelFragment"
+        android:name="com.ispace.mycar.fragments.entry.FuelFragment"
+        android:label="Fuel Panel"
+        tools:layout="@layout/fragment_fuel">
+        <action
+            android:id="@+id/action_fuelFragment_to_carEntryFragment"
+            app:destination="@id/carEntryFragment" />
+        <argument
+            android:name="currentCar"
+            app:argType="com.ispace.mycar.model.CarData" />
+    </fragment>
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="com.ispace.mycar.fragments.list.ListFragment"
+        android:label="Car List"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_carEntryFragment"
+            app:destination="@id/carEntryFragment" />
+        <action
+            android:id="@+id/action_listFragment_to_carDetailsFragment"
+            app:destination="@id/carDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/carDetailsFragment"
+        android:name="com.ispace.mycar.fragments.list.CarDetailsFragment"
+        android:label="Car Details"
+        tools:layout="@layout/fragment_car_details">
+        <action
+            android:id="@+id/action_carDetailsFragment_to_listFragment"
+            app:destination="@id/listFragment" />
+        <argument
+            android:name="currCar"
+            app:argType="com.ispace.mycar.model.CarData" />
+    </fragment>
+    <argument
+        android:name="currentCar"
+        app:argType="com.ispace.mycar.model.CarData" />
+</navigation>
